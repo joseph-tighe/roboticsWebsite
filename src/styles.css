@@ -135,7 +135,7 @@ h1, h2 {
   margin-top: 20px;
 }
 
-/* Glitch Effect - Only on Hover for Robot Names */
+/* Glitch Effect - Only on Hover for Robot Names and Outreach Titles */
 .glitch {
   position: relative;
   display: inline-block;
@@ -155,19 +155,28 @@ h1, h2 {
   transition: opacity 0.2s ease;
 }
 
+/* trigger on hover for bots and outreach section boxes */
 .bot:hover .glitch::before,
-.bot:hover .glitch::after {
+.bot:hover .glitch::after,
+.outreach:hover .glitch::before,
+.outreach:hover .glitch::after,
+.GraciousProfessionalism:hover .glitch::before,
+.GraciousProfessionalism:hover .glitch::after {
   opacity: 1; /* Show on hover */
 }
 
-.bot:hover .glitch::before {
+.bot:hover .glitch::before,
+.outreach:hover .glitch::before,
+.GraciousProfessionalism:hover .glitch::before {
   left: 4px;
   text-shadow: -3px 0 var(--neon-cyan);
   clip-path: inset(44% 0 43% 0);
   animation: glitch-anim 2s infinite linear alternate-reverse;
 }
 
-.bot:hover .glitch::after {
+.bot:hover .glitch::after,
+.outreach:hover .glitch::after,
+.GraciousProfessionalism:hover .glitch::after {
   left: -4px;
   text-shadow: -3px 0 var(magenta), 3px 3px var(--neon-yellow);
   clip-path: inset(10% 0 80% 0);
