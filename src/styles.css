@@ -178,7 +178,7 @@ h1, h2 {
 .outreach:hover .glitch::after,
 .GraciousProfessionalism:hover .glitch::after {
   left: -4px;
-  text-shadow: -3px 0 var(magenta), 3px 3px var(--neon-yellow);
+  text-shadow: -3px 0 var(--neon-magenta), 3px 3px var(--neon-cyan);
   clip-path: inset(10% 0 80% 0);
   animation: glitch-anim2 3s infinite linear alternate-reverse;
 }
@@ -366,7 +366,7 @@ h1, h2 {
   text-align:center;
   width: 100%;
   font-weight: 500;
-  font-size:3em;
+  font-size:2em;
   color: white;
   text-shadow: 2px 2px 2px var(--neon-cyan);
 }
