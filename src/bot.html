@@ -20,7 +20,7 @@
             fetch(`https://blenderbots12492.github.io/website/src/${getQueryParam("bot")}.json`).then(response => response.json()).then(
                 data => {
                     const name = data.name;
-                    const descrition = data.descrition;
+                    const descrition = data.description;
                     const imageUrl = data.image;
                     document.querySelector("#bot_name").innerHTML = name;
                     document.querySelector("#image").src = imageUrl;
