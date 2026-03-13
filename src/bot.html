@@ -11,6 +11,7 @@
         <p id="des"></p>
 
         <script>
+            try {
             function getQueryParam(param) {
                 const urlParams = new URLSearchParams(window.location.search);
                 return urlParams.get(param);
@@ -26,6 +27,9 @@
 
                 }
             );
+            } catch (e) {
+                alert(e)
+            }
             </script>
     </body>
     </html>
