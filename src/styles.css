@@ -509,14 +509,15 @@ h2 {
     top: 20%;
     text-align: center;
     width: 100%;
+    font-weight: 500;
+
 }
 .title::before {
-    font-weight: 500;
     font-size: 2em;
     color: white;
     text-shadow: 2px 2px 2px var(--neon-cyan);
     font: monospace; /*required for anim*/
-    font-weight: 500;
+    font-weight: 800;
     font-size: 2em;
     content: "THE BLENDER BOTS";
     animation: 2s loadAnim;
