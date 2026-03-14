@@ -25,7 +25,7 @@
                     const imageUrl = data.image;
                     const names = document.querySelectorAll(".bot_name");
                     for (const nameElement of names) {
-                        nameElement.innerHTML = name;
+                        nameElement.innerHTML = data.name;
                     }
                     document.querySelector("#image").src = imageUrl;
                     document.querySelector("#des").innerHTML = descrition;
