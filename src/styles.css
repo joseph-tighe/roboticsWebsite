@@ -459,7 +459,9 @@ h2 {
 
 .outreachSec {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
 }
 .outreachSec div {
@@ -468,7 +470,9 @@ h2 {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    width: 25%;
+    flex: 1 1 300px;
+    min-width: 260px;
+    max-width: 360px;
     text-align: center;
     transition: 0.2s;
     box-shadow: -2px -2px 2px var(--neon-pink);
