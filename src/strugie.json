@@ -2,7 +2,7 @@
   "name": "STRUGIE",
   "heroTitle": "strugie",
   "description": "was our centerstage bot",
-  "image": "/website/src/photos/CENTERSTAGE1.png",
+  "image": "photos/CENTERSTAGE1.png",
   "variants": ["PLACEHOLDER", "PLACEHOLDER", "PLACEHOLDER", "PLACEHOLDER"],
   "stack": [
     { "title": "Drive", "body": "Macanum Drive" },
@@ -103,19 +103,19 @@
   ],
   "gallery": [
     {
-      "src": "/website/src/photos/CENTERSTAGE1.png",
+      "src": "photos/CENTERSTAGE1.png",
       "alt": "Strugie"
     },
     {
-      "src": "/website/src/photos/CENTERSTAGE2.png",
+      "src": "photos/CENTERSTAGE2.png",
       "alt": "Strugie"
     },
     {
-      "src": "/website/src/photos/CENTERSTAGE3.png",
+      "src": "photos/CENTERSTAGE3.png",
       "alt": "Strugie"
     },
     {
-      "src": "/website/src/photos/CENTERSTAGE4.png",
+      "src": "photos/CENTERSTAGE4.png",
       "alt": "Strugie"
     }
   ],

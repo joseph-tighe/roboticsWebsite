@@ -2,7 +2,7 @@
   "name": "BUMBLE BEE",
   "heroTitle": "Bumble Bee",
   "description": "We had a pivoting arm setup with two slides a claw with three axis of motion",
-  "image": "/website/src/photos/INTO_THE_DEEP1.png",
+  "image": "photos/INTO_THE_DEEP1.png",
   "variants": ["Claw based Intake", "Level 2 hang"],
   "stack": [
     { "title": "Drive", "body": "Macanum Drive" },
@@ -101,19 +101,19 @@
   ],
   "gallery": [
     {
-      "src": "/website/src/photos/INTO_THE_DEEP1.png",
+      "src": "photos/INTO_THE_DEEP1.png",
       "alt": "Bumble Bee"
     },
     {
-      "src": "/website/src/photos/INTO_THE_DEEP2.png",
+      "src": "photos/INTO_THE_DEEP2.png",
       "alt": "Bumble Bee"
     },
     {
-      "src": "/website/src/photos/INTO_THE_DEEP3.png",
+      "src": "photos/INTO_THE_DEEP3.png",
       "alt": "Bumble Bee"
     },
     {
-      "src": "/website/src/photos/INTO_THE_DEEP4.png",
+      "src": "photos/INTO_THE_DEEP4.png",
       "alt": "Chassis"
     }
   ],

@@ -2,7 +2,7 @@
   "name": "AIM",
   "heroTitle": "AIM",
   "description": "had an auto aim feature using linear regresion and April tags, was intresting because most sucsessful robots that year had a hooded launcher not a parellel launcher",
-  "image": "/website/src/photos/DECODE1.png",
+  "image": "photos/DECODE1.png",
   "variants": [],
   "stack": [
     {
@@ -117,19 +117,19 @@
 
   "gallery": [
     {
-      "src": "/website/src/photos/DECODE1.png",
+      "src": "photos/DECODE1.png",
       "alt": "AIM"
     },
     {
-      "src": "/website/src/photos/DECODE2.png",
+      "src": "photos/DECODE2.png",
       "alt": "AIM"
     },
     {
-      "src": "/website/src/photos/DECODE3.png",
+      "src": "photos/DECODE3.png",
       "alt": "AIM"
     },
     {
-      "src": "/website/src/photos/DECODE4.png",
+      "src": "photos/DECODE4.png",
       "alt": "AIM"
     }
   ],
